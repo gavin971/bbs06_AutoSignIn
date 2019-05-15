@@ -33,6 +33,9 @@ elem=browser.find_element_by_id("ls_cookietime").click()
 browser.find_element_by_xpath('/html/body/div[5]/div/div[1]/form/div/div[1]/table/tbody/tr[2]/td[3]/button/em').click()
 time.sleep(1)
 
+browser.find_element_by_xpath('/html/body/div[5]/div/div[1]/div/p[2]/a[1]/img').click()
+time.sleep(1)
+
 
 browser.find_element_by_xpath('/html/body/div[5]/div/div[1]/div/div/a/img').click()
 time.sleep(1)
